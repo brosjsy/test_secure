@@ -1,6 +1,5 @@
 # test_secure
 import hashlib
-
 def authenticate_user(username, password):
     # Harden against timing attacks by using a constant time comparison function
     def safe_compare(a, b):
